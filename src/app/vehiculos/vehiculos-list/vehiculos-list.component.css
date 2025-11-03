@@ -1,0 +1,51 @@
+/* Centrado general */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/* Banner */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-bottom: 2px solid #e0e0e0;
+  margin-top: 10px;
+}
+
+/* Tabla */
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.table {
+  width: 90%;
+  max-width: 850px;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.table tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #777;
+}
