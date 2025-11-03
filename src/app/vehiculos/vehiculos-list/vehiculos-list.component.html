@@ -30,11 +30,21 @@
         </tr>
       </tbody>
     </table>
+  </div> <!-- cierre de la tabla -->
+  
+  <!-- Totales -->
+  <div class="totales-container text-start mt-3">
+    <div *ngFor="let c of conteoPorMarca" class="fw-semibold">
+      Total {{ c.marca }}: {{ c.cantidad }}
+    </div>
   </div>
 
   <!-- Footer -->
   <footer class="text-center mt-4 text-muted small">
     Contact us: +57 3102703253 · info@tusegundazo.com · @tusegundazo
   </footer>
-
 </div>
+
+
+
+
